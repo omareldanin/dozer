@@ -4,6 +4,13 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import GetCar from './getCar/GetCar';
+import GetSsn from './getSsn/GetSsn';
+import GetCriminal from './getCriminal/GetCriminal';
+import GetDriver from './getDriver/GetDriver';
+import GetStolen from './getStolen/GetStolen';
+import GetCarFile from './getCarFile/GetCarFile';
+import GetPersonFile from './getPersonFile/GetPersonFile';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -49,35 +56,35 @@ function TabsSection() {
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Item One" {...a11yProps(0)} />
-          <Tab label="Item Two" {...a11yProps(1)} />
-          <Tab label="Item Three" {...a11yProps(2)} />
-          <Tab label="Item Four" {...a11yProps(3)} />
-          <Tab label="Item Five" {...a11yProps(4)} />
-          <Tab label="Item Six" {...a11yProps(5)} />
-          <Tab label="Item Seven" {...a11yProps(6)} />
+          <Tab label="Car" {...a11yProps(0)} />
+          <Tab label="card" {...a11yProps(1)} />
+          <Tab label="Criminal" {...a11yProps(2)} />
+          <Tab label="Driver" {...a11yProps(3)} />
+          <Tab label="stolen" {...a11yProps(4)} />
+          <Tab label="car file" {...a11yProps(5)} />
+          <Tab label="person file" {...a11yProps(6)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        Item One
+       <GetCar number="99" letter="o m"/>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+        <GetSsn ssn='11'/>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        <GetCriminal ssn="11"/>
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Item Four
+        <GetDriver ssn="11"/>
       </TabPanel>
       <TabPanel value={value} index={4}>
-        Item Five
+        <GetStolen letter="11" number="11"/>
       </TabPanel>
       <TabPanel value={value} index={5}>
-        Item Six
+        <GetCarFile />
       </TabPanel>
       <TabPanel value={value} index={6}>
-        Item Seven
+        <GetPersonFile />
       </TabPanel>
     </Box>
   );
