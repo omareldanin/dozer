@@ -1,0 +1,195 @@
+body {
+  background-color: rgb(248, 241, 241 / 74%);
+  margin: 0; /* Remove default body margin */
+}
+.container {
+  
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    }
+
+.video-container {
+    display: flex;
+    justify-content: center; /* center the child elements horizontally */
+    gap: 150px; /* set the spacing between child elements to 20 pixels */
+    width: 100%;
+    height: 100%;
+    margin: 20px 20px;
+    padding: 50px;
+    border-radius: 35px;
+    background-color: #f1f1f1;
+  }
+    
+    .frame1 {
+    width: 500px;
+    height: 450px;
+    padding: 10px;
+    border: 1px solid black;
+    }
+    
+    .frame2 {
+    width: 500px;
+    height: 450px;
+    padding: 10px;
+    border: 1px solid black;
+    }
+      
+
+    #video1 {
+    width: 100%;
+    height: 100%;
+    }
+
+    #video2 {
+    width: 100%;
+    height: 100%;
+    }
+    
+  
+    
+
+    .start-button {
+    margin-top: -5px;
+    padding: 10px;
+    background-color: #1E88E5;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    .start-button:hover {
+    background-color: #1976D2;
+    }
+/* form styel*/
+.checkbox {
+ 
+  position: relative;
+  left: 20px;
+  width: 25px;
+  height: 25px;
+  bottom: 1px;
+}
+.FORM1 {
+  position: relative;
+  top:80px;
+  padding: 20px;
+  border-radius: 35px;
+  background-color: #f0f0f0;  
+}
+
+.agecontainar {
+  position: relative;
+  top: 15px;
+}
+.cardcriminalcasecontainar {
+  position: relative;
+  top: 30px;
+}
+.FORM1 .pepole {
+  position: relative;
+  font-size: 30px;
+  left: 75px;
+  font-weight: bold;
+
+}
+.FORM1 .car {
+  position: relative;
+  font-size: 30px;
+  left: 100px;
+  font-weight: bold;
+
+}
+
+.FORM1 .criminalcase .criminallabel {
+  position: relative;
+  font-size: 25px;
+  left: 10px;
+
+}
+.FORM1 .criminalcase {
+  position: relative;
+  top: 10px;
+  left: -18px;
+  padding: 20px;
+  border-radius: 35px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+.FORM1 .namediv {
+  padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 11px;
+    font-size: 25px;
+    left: 1px;
+    position: relative;
+}
+.FORM1 .namediv1 {
+  padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+    left: 1px;
+    position: relative;
+}
+.Form1 .cardcriminalcar {
+  padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    font-size: 25px;
+    left: -2px;
+    position: relative;
+}
+.FORM1 .namediv .name {
+  margin-right: 5px;
+
+}
+.FORM1 .namediv .age {
+  margin-right: 17px;
+
+}
+.FORM1 .namediv .nameinput {
+
+  position: relative;
+  top: 2px;
+  width: 100%;
+  padding: 3px;
+  box-sizing: border-box;
+  caret-color: #4545e5;
+  border: 1px solid #ccc;
+
+}
+.FORM1 .namediv .ageinput {
+  position: relative;
+  width: 100%;
+  padding: 3px;
+  box-sizing: border-box;
+  caret-color: #4545e5;
+  border: 1px solid #ccc;
+
+}
+.FORM1 .namediv1 .cardcriminalcaseinput {
+  position: relative;
+  width: 100%;
+  padding: 3px;
+  box-sizing: border-box;
+  caret-color: #4545e5;
+  border: 1px solid #ccc;
+
+}
+.FORM1 .namediv .cardcriminalcaseinput {
+  position: relative;
+  width: 100%;
+  padding: 3px;
+  box-sizing: border-box;
+  caret-color: #4545e5;
+  border: 1px solid #ccc;
+
+}
+
+
+
