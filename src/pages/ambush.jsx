@@ -1,5 +1,6 @@
 import React from 'react'; 
 import './home.css';
+import TabsSection from './Tabs';
 
 function Ambush () {
   function startCamera() {
@@ -31,7 +32,7 @@ function Ambush () {
         </div>
       </div>
     {/* Tabs Section */}
-    <h1>Hello world</h1>
+    <TabsSection />
     </div>
 );
 }
