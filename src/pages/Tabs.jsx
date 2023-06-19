@@ -11,6 +11,7 @@ import GetDriver from './getDriver/GetDriver';
 import GetStolen from './getStolen/GetStolen';
 import GetCarFile from './getCarFile/GetCarFile';
 import GetPersonFile from './getPersonFile/GetPersonFile';
+import AlertsSection from './AlertsSection';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -47,6 +48,10 @@ function a11yProps(index) {
 
 function TabsSection() {
   const [value, setValue] = React.useState(0);
+  const [carNumber, setCarNumber] = React.useState(99);
+  const [carLetter, setCarLetter] = React.useState("o m");
+  const [personSSN, setPersonSSN] = React.useState(11);
+
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -54,6 +59,9 @@ function TabsSection() {
 
   return (
     <Box sx={{ width: '100%' }}>
+    {/* Alerts Section */}
+    <AlertsSection carNumber={carNumber} carLetter={carLetter} personSSN={personSSN}/>
+
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label="Car" {...a11yProps(0)} />
@@ -65,27 +73,35 @@ function TabsSection() {
           <Tab label="person file" {...a11yProps(6)} />
         </Tabs>
       </Box>
+
       <TabPanel value={value} index={0}>
-       <GetCar number="99" letter="o m"/>
+       <GetCar number={carNumber} letter={carLetter}/>
       </TabPanel>
+
       <TabPanel value={value} index={1}>
-        <GetSsn ssn='11'/>
+        <GetSsn ssn={personSSN}/>
       </TabPanel>
+
       <TabPanel value={value} index={2}>
-        <GetCriminal ssn="11"/>
+        <GetCriminal ssn={personSSN}/>
       </TabPanel>
+
       <TabPanel value={value} index={3}>
-        <GetDriver ssn="11"/>
+        <GetDriver ssn={personSSN}/>
       </TabPanel>
+
       <TabPanel value={value} index={4}>
         <GetStolen letter="11" number="11"/>
       </TabPanel>
+
       <TabPanel value={value} index={5}>
         <GetCarFile />
       </TabPanel>
+
       <TabPanel value={value} index={6}>
         <GetPersonFile />
       </TabPanel>
+
     </Box>
   );
 }

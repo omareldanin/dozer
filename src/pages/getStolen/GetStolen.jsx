@@ -9,7 +9,6 @@ const GetStolen = (props) => {
     )
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         if(data.statusCode === 200){
           setData(data.data)
         }
