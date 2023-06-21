@@ -21,3 +21,19 @@
 [x-cloak=""] {
     display: none;
 }
+
+@keyframes pulse {
+  0% {
+    background-color: #f87171;
+  }
+  50% {
+    background-color: #f43f5e;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 1s infinite;
+}
