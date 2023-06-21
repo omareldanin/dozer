@@ -9,7 +9,7 @@ const AlertsSection = ({ carNumber, carLetter, personSSN }) => {
     {/* Car Section */}
     <div className="flex-1 flex flex-col gap-4 justify-center items-center">
     <h2 className="text-3xl">Car</h2>
-    <AlertCircle valid={isCarOk} />
+    <AlertCircle valid={false} />
     </div>
     {/* Person Section */}
     <div className="flex-1 flex flex-col gap-4 justify-center items-center">

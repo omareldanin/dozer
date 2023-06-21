@@ -85,28 +85,23 @@ function TabsSection() {
 
     <TabPanel value={value} index={0}>
     <ul className="text-2xl flex flex-col gap-5">
-    <li><b>Plate</b>: {carInfo.palte}</li>
-    <li><b>Model</b>: {carInfo.model}</li>
-    <li><b>Color</b>: {carInfo.color}</li>
-    <li><b>Owner SSN</b>: {carInfo.ownerSSN}</li>
-    <li><b>License</b>: {carInfo.IsLicenseValid? "License is valid" : "License is not valid!"}</li>
-    <li><b>Stolen</b>: {carInfo.IsStolen?"Car is Stolen!":"Car is owned by the driver"}</li>
+    <li><b>Plate</b>: {"undefined"}</li>
+    <li><b>Model</b>: {"undefined"}</li>
+    <li><b>Color</b>: {"undefined"}</li>
+    <li><b>Owner SSN</b>: {"undefined"}</li>
+    <li><b>License</b>: {"undefined"}</li>
+    <li><b>Stolen</b>: {"undefined"}</li>
     </ul>
     </TabPanel>
 
     <TabPanel value={value} index={1}>
     <ul className="text-2xl flex flex-col gap-5">
-    <li><b>Name </b>: {personInfo.Name}</li>
-    <li><b>SSN: </b> {personInfo.ssn}</li>
-    <li><b>Date Of Birth: </b> {personInfo.dateOfBirth}</li>
-    <li><b>License: </b>: {personInfo.IsLicenseValid? "License is valid" : "License is not valid!"}</li>
+    <li><b>Name </b>: {"undefined"}</li>
+    <li><b>SSN: </b> {"undefined"}</li>
+    <li><b>Date Of Birth: </b> {"undefined"}</li>
+    <li><b>License: </b>: {"undefined"}</li>
     <li>
-    <b>Criminal </b>: {personInfo.IsCriminal?"Yes":"No"}
-    {personInfo.IsCriminal? <p>
-        <u>Reason</u>: {personInfo.report.reason}
-        <br/>
-        <u>Center</u>: {personInfo.report.center}
-        </p> : null}
+      <b>Crimenal</b>: {"undefined"}
     </li>
     </ul>
     </TabPanel>
