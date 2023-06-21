@@ -1,0 +1,96 @@
+﻿[
+  {
+    "Name": "عمرو محمد عيد السولية",
+    "ssn": "80105101100291",
+    "dateOfBirth": "2/4/1989",
+    "IsLicenseValid": true,
+    "IsCriminal": false,
+    "report": null
+  },
+  {
+    "Name": "ياسر أحمد إبراهيم الحنفي",
+    "ssn": "118101710291",
+    "dateOfBirth": "10/2/1993",
+    "IsLicenseValid": true,
+    "IsCriminal": false,
+    "report": null
+  },
+  {
+    "Name": "رامي هشام عبد العزيز مصطفى ربيعة",
+    "ssn": "30111101722281",
+    "dateOfBirth": "20/5/1993",
+    "IsLicenseValid": true,
+    "IsCriminal": false,
+    "report": null
+  },
+  {
+    "Name": "محمود المتولي محمد منصور",
+    "ssn": "20114104700291",
+    "dateOfBirth": "4/1/1993",
+    "IsLicenseValid": true,
+    "IsCriminal": false,
+    "report": null
+  },
+  {
+    "Name": "محمود عبد المنعم عبد الحميد سليمان",
+    "ssn": "30102091800291",
+    "dateOfBirth": "13/4/1994",
+    "IsLicenseValid": true,
+    "IsCriminal": false,
+    "report": null
+  },
+  {
+    "Name": "حمدي فتحي عبد الحليم عبد الفتاح بيومي",
+    "ssn": "8108101852296",
+    "dateOfBirth": "18/10/1994",
+    "IsLicenseValid": true,
+    "IsCriminal": false,
+    "report": null
+  },
+  {
+    "Name": "محمد مجدي محمد مرسي",
+    "ssn": "20102101890291",
+    "dateOfBirth": "6/3/1996",
+    "IsLicenseValid": true,
+    "IsCriminal": false,
+    "report": null
+  },
+  {
+    "Name": "علي معلول",
+    "ssn": "13065493133165",
+    "dateOfBirth": "22/12/1990",
+    "IsLicenseValid": false,
+    "IsCriminal": true,
+    "report": null
+  },
+  {
+    "Name": "وليد سليمان سعيد عبيد",
+    "ssn": "1008141789147",
+    "dateOfBirth": "1/12/1984",
+    "IsLicenseValid": true,
+    "IsCriminal": false,
+    "report": null
+  },
+  {
+    "Name": "محمد هاني جمال الدمرداش",
+    "ssn": "80107201933635",
+    "dateOfBirth": "25/1/1996",
+    "IsLicenseValid": false ,
+    "IsCriminal": true,
+    "report": {
+      "reason": "solid mobile",
+      "center":  "Quessna - Menufia"
+    }
+  },
+  {
+    "Name": "محمد السيد محمد الشناوي جمعة",
+    "ssn": "10018771753159",
+    "dateOfBirth": "22/12/1988",
+    "IsLicenseValid": false,
+    "IsCriminal": true ,
+    "report": {
+      "reason": "killer",
+      "center": "Shebin El Koom - Menufia"
+    }
+  },
+]

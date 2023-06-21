@@ -1,0 +1,26 @@
+﻿[
+  {
+    "palte": "(4 9 8 6) - (أ ن ص)",
+    "model": "nissan",
+    "color": "Gray",
+    "ownerSSN": "65498732110234",
+    "IsLicenseValid": true,
+    "IsStolen": false
+  },
+  {
+    "palte": "(8 7 8 4) - (ص ص)",
+    "model": "Hyunda",
+    "color": "Red",
+    "ownerSSN": "89754320132654",
+    "IsLicenseValid": true,
+    "IsStolen": false
+  },
+  {
+    "palte": "(1 3 6 5) - (و ف)",
+    "model": "Hyunda",
+    "color": "Red",
+    "ownerSSN": "80897645132365",
+    "IsLicenseValid": false,
+    "IsStolen": true
+  }
+]
